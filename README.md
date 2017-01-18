@@ -10,3 +10,18 @@
 * При клике на заголовок записи - должна открываться страница этой записи.
 
 Успехов!
+
+
+## Установка проекта
+
+* Клонировать проект 
+* Установить pip
+* Установить virtualenv / virtualenvwrapper
+
+```
+cd aptestproject/
+virtualenv venv
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
